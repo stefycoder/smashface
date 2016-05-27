@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Face</title>			
+
+	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	</head>
+	<body>
+	<header>
+		<div class="container">
+			<h1>Smash Faces</h1>
+				<p>Bienvenidas al juego de Smash Faces. Tu misión es poder identificar a todas tus compañeras de clase ingresando para ello su nombre.<br> Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente</p>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row mg-t-40">
+				<div class="col-md-4">
+					<span>Elige tu sede:</span>
+					<div class="select">
+						<select name="sedes" id="sedes">
+							<option value="default">Selecciona Sede</option>
+							<option value="peru"> Peru</option>
+							<option value="arequipa">Arequipa</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<span class="textp">Puntos: </span>
+					<span id="puntos"></span>
+				</div>
+			</div>
+			<div class="row mg-t-40">
+				<div class="col-md-4">
+					<div class="foto"><img id="coder"></div>
+				</div>
+				<div class="col-md-8">
+					<input type="text" placeholder="Nombre" class="form-control nombre">
+					<button type="button" class="btn btn-primary comprobar">COMPROBAR</button>
+					<p class="mensaje mg-t-40"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+		<script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+		<script src="js/lima.js"></script>
+		<script src="js/arequipa.js"></script>
+	</body>
+</html>

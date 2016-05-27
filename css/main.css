@@ -1,0 +1,49 @@
+*{
+  background: orange;
+}
+img{
+	width: 100%;
+}
+.mg-t-40{
+  margin-top: 40px;
+}
+.textp{
+  font-size: 40px;
+}
+#puntos{
+  font-size: 40px;
+}
+.select {
+  position: relative;
+  border: 1px solid #ccc;
+  width: 220px;
+  overflow: hidden;
+  background-color: #F8B61B;
+}
+  .select:before {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+  .select select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+}
+.comprobar{
+  margin-top: 20px;
+}
+select:focus{
+	outline:0px !important;
+}
